@@ -3,6 +3,7 @@
 --white: white;
 }
 
+/* Index.html */
 
 /* Body */
 
@@ -121,11 +122,13 @@ height: 100%;
 
   .image p {
     position: absolute;
-    transform: translate(50%, 50%);
+    transform: translate(30%, 50%);
     font-size: 100px;
     font-family: fantasy;
     color: var(--white);
   }
+
+
 
   /* Footer */
 
@@ -143,3 +146,8 @@ height: 100%;
     color: var(--white);
     text-decoration: none underline;
   }
+
+
+  /* drawing.html */
+
+  
