@@ -7,7 +7,20 @@
     <script src="main.js"></script>
     <title>Drawing board</title>
 </head>
-<body>
+<body id="drawingBoard">
+    <header id="drawProperties">
+<form class="form">
     
+    <label for="">Color<input type="color" id="colorSelect" onchange="changeStrokeColor"></label>
+    <label for="">Stroke size<input type="range" id="size"></label> 
+    <label for="">Eraser<input type="radio" name="r2" id="eraser"></label>
+    <label for="">Pencil<input type="radio" name="r2" id="pencil" checked></label>
+    <input type="button" value="Clear" id="clear">
+    <input type="button" value="Apply" id="apply">
+    
+</form>
+    </header>
+    <canvas id="drawingArea">
+    </canvas>
 </body>
 </html>
