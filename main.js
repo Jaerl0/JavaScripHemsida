@@ -29,13 +29,15 @@ document.getElementById("clear").addEventListener("click", function() {
 
 // Eraser 
 
-    function eraser (){
-        var eraser = document.getElementById("eraser").value;
-        if (eraser == true){
-        ctx.strokeStyle = "white";
-        }
-    }
-    document.getElementById("eraser").addEventListener("click", eraser, false);
+    // function eraser (){
+    //     var eraser = document.getElementById("eraser").value;
+       
+    //     if (eraser == true){
+    //     ctx.strokeStyle = "white";
+    //     }
+        
+    // }
+    // document.getElementById("eraser").addEventListener("click", eraser, true);
 
 
    function startPosition(e){

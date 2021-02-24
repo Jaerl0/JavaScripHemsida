@@ -122,10 +122,10 @@ height: 100%;
 
   .image p {
     position: absolute;
-    transform: translate(30%, 50%);
-    font-size: 100px;
+    transform: translate(25%, 50%);
+    font-size: 6rem;
     font-family: fantasy;
-    color: var(--white);
+    color: black;
   }
 
 
@@ -151,7 +151,7 @@ height: 100%;
   /* drawing.html */
 
  * #drawingBoard {
-   font-family: Verdana, Tahoma, sans-serif;
+  font-family: cursive;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -168,20 +168,23 @@ height: 100%;
    grid-row: 1/-2;
    width: 100vw;
    height: 100px;
-   background: #0f0;
+   background: rgba(87, 87, 87, 0.61);
    
  }
 
   .BackToMenu {
-    font-size: 30px;
-    text-decoration: none black;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px
   }
 
    .form {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: #0ff;
+    background: rgb(60, 184, 184);
     height: 100px;
     width: 100;
     
@@ -189,8 +192,8 @@ height: 100%;
 
  input, label {
    margin-top: 15px;
-   margin-right: 50px;
-   margin-left: 10px;
+   margin-right: 20px;
+   margin-left: 20px; 
  }
 
  #apply, #clear {
