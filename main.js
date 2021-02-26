@@ -27,18 +27,6 @@ window.addEventListener("load", () => {
 document.getElementById("clear").addEventListener("click", function() {
     ctx.clearRect(0, 0, drawingArea.width, drawingArea.height); }, false);
 
-// Eraser 
-
-    // function eraser (){
-    //     var eraser = document.getElementById("eraser").value;
-       
-    //     if (eraser == true){
-    //     ctx.strokeStyle = "white";
-    //     }
-        
-    // }
-    // document.getElementById("eraser").addEventListener("click", eraser, true);
-
 
    function startPosition(e){
        painting = true;
